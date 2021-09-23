@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Personal_Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+</head>
+<body>
+<header>
+    <a href="#" class="logo">personal page</a>
+    <div class="toggle" onclick="toggleMenu();">
+
+    </div>
+    <ul class="menu">
+        <li><a href="#home" onclick="toggleMenu();">Главная</a></li>
+        <li><a href="#about" onclick="toggleMenu();">Обо мне</a></li>
+        <li><a href="#work" onclick="toggleMenu();">Работы</a></li>
+        <li><a href="#contact" onclick="toggleMenu();">Контакты</a></li>
+    </ul>
+</header>
+<section class="banner" id="home">
+    <div class="textBx">
+        <h2>
+            Привет, я<br><span>Богомолов Евгений Александрович.</span>
+        </h2>
+        <h3>
+            Студент 3-го курса ЛГТУ.
+        </h3>
+        <a href="#about" class="btn">
+            Обо мне
+        </a>
+    </div>
+</section>
+<section class="about" id="about">
+    <div class="heading">
+        <h2>
+            Обо мне
+        </h2>
+    </div>
+    <div class="content">
+        <div class="contentBx w50">
+            <h3>
+                Я студент 3-го курса ЛГТУ.
+            </h3>
+            <p>Sed id auctor dolor, eu ornare nisi. Vestibulum in ullamcorper elit.
+                Nulla dui metus, aliquam ut ullamcorper id, pellentesque nec leo.
+                Sed at ligula mattis, cursus dolor ut, ornare tortor. In cursus vulputate sem vitae vestibulum.
+                In ornare elit eu pulvinar euismod. Cras commodo ultrices iaculis.
+                Mauris massa lorem, mollis ac eleifend id, egestas nec nunc. Proin a elit sit amet sem placerat semper.
+                Donec interdum volutpat felis sit amet euismod.
+                <br><br>
+                Vivamus accumsan, mi quis vehicula convallis, dui mauris fermentum arcu, id iaculis nulla nisi ac erat.
+                Nulla efficitur auctor semper. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                Phasellus lobortis blandit purus, eget laoreet felis. Phasellus varius eros sit amet aliquet tincidunt.
+                Fusce porttitor nulla pur.
+                Phasellus lobortis blandit purus, eget laoreet felis. Phasellus varius eros sit amet aliquet tincidunt.
+                Fusce porttitor nulla pur.
+                <br><br>
+                Vivamus accumsan, mi quis vehicula convallis, dui mauris fermentum arcu, id iaculis nulla nisi ac erat.
+                Nulla efficitur auctor semper. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                Phasellus lobortis blandit purus, eget laoreet felis. Phasellus varius eros sit amet aliquet tincidunt.
+                Fusce porttitor nulla pur.
+                Phasellus lobortis blandit purus, eget laoreet felis. Phasellus varius eros sit amet aliquet tincidunt.
+                Fusce porttitor nulla pur.</p>
+        </div>
+        <div class="w50">
+            <img src="img/my_image.jpg" class="img">
+        </div>
+    </div>
+</section>
+<section class="work" id="work">
+    <div class="heading">
+        <h2>Мои последние работы</h2>
+    </div>
+    <div class="content">
+        <div class="workBx">
+            <div class="imgBx">
+                <img src="img/proj_1.jpg">
+            </div>
+            <div class="textBx">
+                <h3>Проект №1</h3>
+            </div>
+        </div>
+        <div class="workBx">
+            <div class="imgBx">
+                <img src="img/proj_2.jpg">
+            </div>
+            <div class="textBx">
+                <h3>Проект №2</h3>
+            </div>
+        </div>
+        <div class="workBx">
+            <div class="imgBx">
+                <img src="img/proj_3.jpg">
+            </div>
+            <div class="textBx">
+                <h3>Проект №3</h3>
+            </div>
+        </div>
+        <div class="workBx">
+            <div class="imgBx">
+                <img src="img/proj_4.jpg">
+            </div>
+            <div class="textBx">
+                <h3>Проект №4</h3>
+            </div>
+        </div>
+    </div>
+    <div class="heading">
+        <a href="https://github.com/evgen1067?tab=repositories" class="btn">
+            Больше
+        </a>
+    </div>
+</section>
+<section class="contact" id="contact">
+    <div class="heading">
+        <h2>Обратная связь</h2>
+        <p>Отправьте мне сообщение и я обязательно отвечу!</p>
+    </div>
+    <div class="content">
+        <div class="contactInfoBox">
+            <div class="contactInfo">
+                <h3>Контактная информация</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <img src="img/1.svg">
+                        </div>
+                        <div class="text">
+                            <h3>Адрес</h3>
+                            <p>г. Липецк,<br>ул. Бабушкина 95/2</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <img src="img/2.svg">
+                        </div>
+                        <div class="text">
+                            <h3>Телефон</h3>
+                            <p>+7 (950) 803 56 31</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <img src="img/3.svg">
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>bogomolov.evgen1067@mail.ru</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <img src="img/4.svg">
+                        </div>
+                        <div class="text">
+                            <h3>GitHub</h3>
+                            <p>https://github.com/evgen1067</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="formBx">
+            <form>
+                <h3>
+                    Свяжитесь со мной
+                </h3>
+                <input type="text" name="name" placeholder="Ваше имя">
+                <input type="text" name="email" placeholder="Email">
+                <textarea name="message" placeholder="Ваше сообщение"></textarea>
+                <input type="submit" value="Отправить">
+            </form>
+        </div>
+    </div>
+</section>
+<script type="text/javascript">
+    window.addEventListener('scroll', function (){
+        var header = document.querySelector('header');
+            header.classList.toggle('sticky',window.scrollY > 0);
+    })
+
+    function toggleMenu(){
+        var menuToggles = document.querySelector('.toggle');
+        var menu = document.querySelector('.menu');
+        menuToggles.classList.toggle('active');
+        menu.classList.toggle('active');
+    }
+</script>
+</body>
+</html>
