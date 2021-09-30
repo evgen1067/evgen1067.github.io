@@ -139,6 +139,10 @@ header.sticky ul li a{
     max-width: 100%;
 }
 
+.about p span{
+    padding-left: 5%;
+}
+
 .work .content{
     display: flex;
     justify-content: center;
